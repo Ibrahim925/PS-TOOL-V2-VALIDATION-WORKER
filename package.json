@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --build",
-    "start": "node ./build/jobs/worker.js",
+    "start": "node --max_old_space_size=1000 ./build/jobs/worker.js",
     "deploy": "npm run build && npm run start"
   },
   "repository": {
