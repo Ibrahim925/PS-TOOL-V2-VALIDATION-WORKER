@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --build",
-		"start": "node ./build/jobs/worker.js",
-		"deploy": "npm run build && npm run start"
+    "start": "node ./build/jobs/worker.js",
+    "deploy": "npm run build && npm run start"
   },
   "repository": {
     "type": "git",
