@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --build && exit 0",
+    "build": "tsc --build",
     "start": "node ./build/jobs/worker.js",
     "deploy": "npm run build && npm run start"
   },
@@ -27,7 +27,6 @@
     "aws-sdk": "^2.1120.0",
     "bull": "^4.8.2",
     "json2csv": "^5.0.7",
-    "tsc": "^2.0.4",
     "typeorm": "^0.2.45",
     "typescript": "^4.6.3"
   }
