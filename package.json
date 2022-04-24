@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --build",
+    "build": "tsc --build && exit 0",
     "start": "node ./build/jobs/worker.js",
     "deploy": "npm run build && npm run start"
   },
